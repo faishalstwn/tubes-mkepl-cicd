@@ -27,7 +27,7 @@ class CalculatorServiceTest {
     @Test
     @DisplayName("Pengurangan menghasilkan angka negatif")
     void testSubtractNegativeResult() {
-        assertEquals(-1, calculatorService.subtract(2, 3));
+        assertEquals(-1, calculatorService.subtract(2, 3))
     }
 
     @Test
