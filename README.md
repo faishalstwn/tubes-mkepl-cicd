@@ -39,8 +39,8 @@ build (CI) → test (Continuous Testing)     → deploy (CD, hanya di branch mai
 
 | Nama | Bagian |
 |---|---|
-| (isi nama 1) | Continuous Integration |
+| (Faishal Arif Setiawan | Continuous Integration |
 | (isi nama 2) | Continuous Testing |
-| (isi nama 3) | Continuous Inspection |
+| (isi namaa 3) | Continuous Inspection |
 | (isi nama 4) | Continuous Deployment/Delivery |
 | (isi nama 5) | Penjelasan project, arsitektur, dan environment config |
