@@ -7,6 +7,12 @@
     <property name="charset" value="UTF-8"/>
     <property name="severity" value="warning"/>
 
+    <!-- LineLength sekarang merupakan child langsung dari Checker
+         (bukan TreeWalker) sejak Checkstyle versi modern -->
+    <module name="LineLength">
+        <property name="max" value="130"/>
+    </module>
+
     <module name="TreeWalker">
         <module name="UnusedImports"/>
         <module name="RedundantImport"/>
@@ -15,9 +21,6 @@
         <module name="NeedBraces"/>
         <module name="MethodLength">
             <property name="max" value="60"/>
-        </module>
-        <module name="LineLength">
-            <property name="max" value="130"/>
         </module>
     </module>
 
